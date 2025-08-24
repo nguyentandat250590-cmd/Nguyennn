@@ -1,0 +1,80 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Script ATM 👾",
+         Animation = "Dũng Nguyênx🍬"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=83190276951914",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Grow a Garden"})
+     local Tab2o = MakeTab({Name = "Obby"})
+     local Tab3o = MakeTab({Name = "Steal a Brainrot"})
+     
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "🌊Speed Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "🌊No Lag",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/roblox-growagarden/growagarden/refs/heads/main/No-Lag"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "🌊Thanhhub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "🌊QuanTum",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "🌊FlyGuiV3",
+    Callback = function()
+	  loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-gui-v3-30439"))()
+  end
+  })
+  AddButton(Tab2o, {
+     Name = "🌊Wall Hop",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ScpGuest666/Random-Roblox-script/refs/heads/main/Roblox%20WallHop%20V4%20script"))()
+  end
+  })
+      AddButton(Tab3o, {
+     Name = "🌊TienKhanh",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()
+  end
+  })
