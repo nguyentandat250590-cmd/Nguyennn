@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "Bin😋",
-         Animation = "Script Made By Dũng Nguyênx🍬"
+         Animation = "Dũng Nguyênx🍬"
          },
         Key = {
         KeySystem = false,
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=10729455663",
+       Image = "http://www.roblox.com/asset/?id=8964489645",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -37,43 +37,43 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "Speed Hub",
+     Name = "🌊Speed Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
   end
   })
   AddButton(Tab1o, {
-     Name = "No Lag",
+     Name = "🌊No Lag",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/roblox-growagarden/growagarden/refs/heads/main/No-Lag"))()
   end
   })
   AddButton(Tab1o, {
-     Name = "Thanhhub",
+     Name = "🌊Thanhhub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1"))()
   end
   })
   AddButton(Tab1o, {
-     Name = "QuanTum",
+     Name = "🌊QuanTum",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
   end
   })
   AddButton(Tab2o, {
-     Name = "FlyGuiV3",
+     Name = "🌊FlyGuiV3",
     Callback = function()
 	  loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-gui-v3-30439"))()
   end
   })
   AddButton(Tab2o, {
-     Name = "Wall Hop",
+     Name = "🌊Wall Hop",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ScpGuest666/Random-Roblox-script/refs/heads/main/Roblox%20WallHop%20V4%20script"))()
   end
   })
       AddButton(Tab3o, {
-     Name = "TienKhanh",
+     Name = "🌊TienKhanh",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()
   end
