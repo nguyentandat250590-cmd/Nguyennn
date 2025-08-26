@@ -33,6 +33,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "Grow a Garden"})
      local Tab2o = MakeTab({Name = "Obby"})
      local Tab3o = MakeTab({Name = "Steal a Brainrot"})
+     local Tab4o = MakeTab({Name = "Block Fruit"})
      
 ------- BUTTON
     
@@ -76,5 +77,18 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      Name = "🌊TienKhanh",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()
+  end
+  })
+  AddButton(Tab4o, {
+     Name = "🌊Blu x Hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
+  AddButton(Tab4o, {
+     Name = "🌊Xeter",
+    Callback = function()
+	  getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Loader/refs/heads/main/XeterV3"))()%60%60%60
   end
   })
