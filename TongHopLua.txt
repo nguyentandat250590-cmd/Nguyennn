@@ -85,6 +85,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/vacamfanfeedback/SAB-server-hopper/refs/heads/main/script.lua"))()
   end
   })
+  AddButton(Tab3o, {
+     Name = "🌊Hop sv",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ily123950/Hopper/refs/heads/main/releaseass.txt"))()
+  end
+  })
   AddButton(Tab4o, {
      Name = "🌊Blu x Hub",
     Callback = function()
